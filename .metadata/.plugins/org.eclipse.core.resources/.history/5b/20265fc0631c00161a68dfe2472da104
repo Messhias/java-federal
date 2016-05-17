@@ -1,0 +1,26 @@
+package calculator;
+
+class Calculator{
+	
+	// sum
+	public static void add(int n1, int n2){
+		int result = n1 + n2;
+		System.out.println(n1 + " + " + n2 + " = " + result);
+	}
+	
+	//subract
+	public static void subtract(int n1, int n2){
+		int  result = n1 - n2;
+		System.out.println(n1 + " - " + n2 + " = " + result);
+	}
+}
+
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

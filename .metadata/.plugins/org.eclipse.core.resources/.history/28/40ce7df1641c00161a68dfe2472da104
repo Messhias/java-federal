@@ -1,0 +1,52 @@
+package calculator;
+
+import java.util.Scanner;
+
+class Calculator{
+	
+	// sum
+	public static void add(int n1, int n2){
+		int result = n1 + n2;
+		System.out.println(n1 + " + " + n2 + " = " + result);
+	}
+	
+	//subract
+	public static void subtract(int n1, int n2){
+		int  result = n1 - n2;
+		System.out.println(n1 + " - " + n2 + " = " + result);
+	}
+	
+	//multiply
+	public static void multiply(int n1, int n2){
+		int result = n1 * n2;
+		System.out.println(n1 + " * " + n2 + " = " + result);
+	}
+	
+	//divide
+	public static void divide(double n1, double n2){
+		double result = n1 / n2;
+		System.out.println(n1 + " / " + n2 + " = " + result);
+	}
+}
+
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1 =0;
+		int n2 = 0;
+		
+		Scanner sc = new Scanner(System.in);    
+		
+	    String entrada;
+	    
+	    System.out.println("Digite o primeiro numero: ");
+	    entrada = sc.nextLine();
+	    n1 = Integer.parseInt(entrada);
+	    
+	    System.out.print("Digite o segundo número: ");
+	    
+	}
+
+}
