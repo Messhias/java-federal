@@ -1,0 +1,40 @@
+package hipotenusa;
+
+import java.util.Scanner;
+
+class Hipotenusa {  
+	  
+    Scanner read = new Scanner(System.in);  
+      
+    private int cateto1;  
+    private int cateto2;  
+    private float hipotenusa;  
+      
+      
+    public Hipotenusa() {  
+        calculaHipotenusa();  
+    }  
+      
+    private void calculaHipotenusa(){  
+          
+        System.out.println("Cateto 1: ");  
+        cateto1 = Integer.parseInt(read.next());  
+          
+        System.out.println("Cateto 2"<img src="http://javafree.uol.com.br/forum/images/smiles/icon_wink.gif">;  
+        cateto2 = Integer.parseInt(read.next());  
+          
+        hipotenusa = (float) Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));  
+          
+        System.out.println("Hipotenusa: " + hipotenusa);  
+          
+    }
+}
+
+public class hipotenusa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
